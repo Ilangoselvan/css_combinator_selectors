@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="c.selectors">
+	<meta name="keywords" content="html,css">
+	<meta name="viewpoint" content="width=device-width,initialscale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title="combinator selectors">
+</head>
+	<body>
+		<section>
+		<div class="Descendentselector">
+		<p>parent child1</p>
+		<p>parent child2</p>
+		<span><p>child3</p></span>
+		</div><hr>
+		
+		<div class="Childselector">
+		<h2>direct child1</h2>
+		<h2>direct child2</h2>
+		<b><h2>child</h2></b>
+		</div><hr>
+		
+		
+		<div class="Adjacentsibling">
+			<p>parent end</p>
+		</div>
+		<div class="Adjacentsibling">
+			<p>immediate child</p>
+		</div>
+		<div class="Adjacentsibling">
+			<p>child</p>
+		</div><hr>
+		
+		<div class="Generalsibling">
+			<p>direct child1</p>
+			<p>direct child2</p>
+			<p><b>child</b></p>
+		</div>
+	</section>
+	</body>
+</html>

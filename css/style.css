@@ -1,0 +1,33 @@
+/*combinator selectors*/
+/*desendent*/
+
+.Descendentselector p{
+	background-color:orange;
+	font-size:30px;
+	font-family:arial;
+	width:30%;
+}
+
+/*child*/
+.Childselector>h2{
+	background-color:gray;
+	font-size:25px;
+	width:400px;
+	color:white;
+}
+
+
+/*adjacent sibling*/
+.Adjacentsibling+p{
+	font-size:25px;
+	background-color:red;
+	
+}
+/*general sibling*/
+.Generalsibling~p{
+	background-color:blue;
+	font-size:30px;
+	color:green;
+}
+
+
